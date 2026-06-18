@@ -98,7 +98,7 @@ http://localhost/tracking-packet
 
 **Ilyas Yasin Nurulah**
 
-Information Systems Student
+Informatics Student
 
 GitHub:
 https://github.com/arulGo18
