@@ -2,6 +2,10 @@
 
 Web-based Logistics Tracking Platform built with PHP Native, MySQL, and Bootstrap 5.
 
+## Live Demo
+
+https://trackingpacket.infinityfree.io
+
 ## Features
 
 - Seller Dashboard
@@ -9,8 +13,22 @@ Web-based Logistics Tracking Platform built with PHP Native, MySQL, and Bootstra
 - Consolidation Management
 - Dropshipping Module
 - Tracking Timeline
-- Logistics Simulator
 - Supplier Simulator
+- Logistics Simulator
+
+---
+
+## Homepage
+
+![Homepage](gambar/track.png)
+
+---
+
+## User Tracking
+
+![User Tracking](gambar/user.png)
+
+---
 
 ## Tech Stack
 
@@ -19,13 +37,68 @@ Web-based Logistics Tracking Platform built with PHP Native, MySQL, and Bootstra
 - Bootstrap 5
 - InfinityFree Hosting
 
-## Live Demo
-
-https://trackingpacket.infinityfree.io
+---
 
 ## Installation
 
-1. Import database/tracking_packet.sql
-2. Configure database.example.php
-3. Rename to database.php
-4. Run on XAMPP or Hosting
+1. Clone repository
+
+```bash
+git clone https://github.com/arulGo18/Tracking-Package.git
+```
+
+2. Import database
+
+```sql
+database/tracking_packet.sql
+```
+
+3. Configure database
+
+```php
+config/database.example.php
+```
+
+Rename to:
+
+```php
+config/database.php
+```
+
+4. Run using XAMPP
+
+```
+http://localhost/tracking-packet
+```
+
+---
+
+## Project Modules
+
+### Seller
+- Manage Orders
+- Manage Suppliers
+- Manage Shipments
+- Manage Consolidations
+
+### Dropshipper
+- View Orders
+- Track Shipment Status
+- View Tracking Timeline
+
+### Simulator
+- Customer Order Simulator
+- Supplier Simulator
+- Logistics Simulator
+- Tracking Update Simulator
+
+---
+
+## Author
+
+**Ilyas Yasin Nurulah**
+
+Information Systems Student
+
+GitHub:
+https://github.com/arulGo18
